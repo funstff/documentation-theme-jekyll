@@ -9,14 +9,51 @@ permalink: mydoc_about.html
 folder: mydoc
 ---
 
-My name is Tom Johnson, and I'm a technical writer, blogger, and podcaster based in San Jose, California. For more details, see my [technical writing blog](http://idratherbewriting.com) and my [course on API documentation](http://idratherbewriting.com/learnapidoc/).  See [my blog's about page](http://idratherbewriting.com/aboutme/) for more details about me.
+Airties Air6271 - Wiki
+=========================================
 
-I have used this theme and variations of it for various documentation projects. This theme has undergone several major iterations, and now it's fairly stable and full of all the features that I need. You are welcome to use it for your documentation projects for free.
+The Airties Air6271 Wireless ADSL2+ VoIP Gateway is a 3-in-1 device with a 54Mbit/s data rate, traditional modern Airties user interface and a USB port.
 
-I think this theme does pretty much everything that you can do with something like OxygenXML, but without the constraints of structured authoring. Everything is completely open and changeable, so if you start tinkering around with the theme's files, you can break things. But it's completely empowering as well!
+## Device picture
 
-With a completely open architecture and code base, you can modify the code to make it do exactly what you want, without having to jump through all kinds of confusing or proprietary code.
+![Airties Air6271](https://teknodestek.com.tr/wp-content/uploads/2017/03/1-30.jpg)
 
-If there's a feature you need but it isn't available here, let me know and I might add it. Alternatively, if you fork the theme, I would love to see your modifications and enhancements. Thanks for using Jekyll.
+## Device specifications
 
-{% include links.html %}
+Basic   | Spec Sheet
+-------:|:-------------------------
+Type    | Wireless ADSL2+ VoIP Gateway
+CPU     | Infinion (aka Lantiq) XWAY™ Danube PSB 50702 (333 MHz)
+CPU Architecture | Dual 32-bit MIPS 24KEc RISC processors
+Flash Chip   | EON EN29LV640B-90TIP 8 MB
+RAM Chip  |  Powerchip Semiconductor PSC A3S12D40ETP
+. | 512Mb DDR Synchronous DRAM
+Wlan    | Atheros AR2417 IEEE 802.11b/g
+USB     | USB 2.0 x 1
+LAN     | 100M / 4 ports
+LAN Switch  | RTL8306SD
+Kernel  | Linux 2.6.20.19
+Additional chips | (adsl)
+SLIC | Infineon PEF 4268T
+Power Adapter | AC Adapter Input: 100-240V (50-60HZ), DC Output: 15 V/1 A
+
+## uname -a
+```
+Linux Air6271** 2.6.20.19 #1 Tue Sep 13 01:22:00 EEST 2011 mips GNU/Linux
+```
+
+## cat /proc/cpuinfo
+```
+system type             : DANUBE
+processor               : 0
+cpu model               : MIPS 24K V2.0.1
+BogoMIPS                : 220.67
+wait instruction        : yes
+microsecond timers      : yes
+tlb_entries             : 16
+extra interrupt vector  : yes
+hardware watchpoint     : yes
+ASEs implemented        : mips16 dspvint
+VCED exceptions         : not available
+VCEI exceptions         : not available
+```
